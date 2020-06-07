@@ -6,7 +6,7 @@ public class AnnotationBeanScopeDemoApp {
 	public static void main(String[] args) {
 		// load spring config file
 		AnnotationConfigApplicationContext context = new 
-				AnnotationConfigApplicationContext(SprotConfig.class);
+				AnnotationConfigApplicationContext(SportConfig.class);
 		
 		// retrieve bean from spring container
 		Coach theCoach = context.getBean("tennisCoach", Coach.class);
